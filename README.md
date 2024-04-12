@@ -1,11 +1,11 @@
-Installation and setup 
+INSTALLATION AND SETUP
 Step 1. Clone the tensorflow repository : git clone https://github.com/tensorflow/models.git
 
 Step 2.Protobuf download: https://github.com/protocolbuffers/protobuf/releases 
 
 add the protoc file at the same location where python is present .
 
-Object Detection on Custom Dataset
+OBJECT DETECTION ON CUSTOM DATASET
 
 Directory -models\research\object_detection
 
