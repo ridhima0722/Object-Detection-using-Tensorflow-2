@@ -1,0 +1,18 @@
+Reference :
+https://github.com/BenGreenfield825/Tensorflow-Object-Detection-with-Tensorflow-2.0
+
+Requirements :
+1.Labeled and Annotated dataset 
+2.Used Labelimg to label and annotate the images .
+
+
+Commands used :
+1.Generate TFrecords 
+python generate_tfrecord.py --csv_input=images/test_labels.csv --image_dir=images/test --output_path=test.record
+python generate_tfrecord.py --csv_input=images/train_labels.csv --image_dir=images/train --output_path=train.record
+
+2.Training 
+python model_main_tf2.py --pipeline_config_path==ssd_efficientdet_d0_512x512_coco17_tpu-8.config  --model_dir==training --alsologtostderr
+
+3.Export graph
+python exporter_main_v2.py --trained_checkpoint_dir=training  --pipeline_config_path=ssd_efficientdet_d0_512x512_coco17_tpu-8.config --output_directory inference_graph

@@ -1,0 +1,26 @@
+<annotation>
+	<folder>downloaded</folder>
+	<filename>272.jpg</filename>
+	<path>C:\Users\Bijnis\OneDrive\Desktop\downloaded\272.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>6000</width>
+		<height>4000</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Footwear</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1403</xmin>
+			<ymin>362</ymin>
+			<xmax>4478</xmax>
+			<ymax>3600</ymax>
+		</bndbox>
+	</object>
+</annotation>

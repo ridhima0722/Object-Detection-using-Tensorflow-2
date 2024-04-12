@@ -1,0 +1,26 @@
+<annotation>
+	<folder>train</folder>
+	<filename>8.jpg</filename>
+	<path>C:\Users\Bijnis\OneDrive\Desktop\Ridhima\similarity_image\train\8.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>3531</width>
+		<height>2221</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Footwear</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>2334</xmin>
+			<ymin>46</ymin>
+			<xmax>3499</xmax>
+			<ymax>2014</ymax>
+		</bndbox>
+	</object>
+</annotation>

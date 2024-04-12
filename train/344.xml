@@ -1,0 +1,26 @@
+<annotation>
+	<folder>downl</folder>
+	<filename>344.jpeg</filename>
+	<path>C:\Users\Bijnis\OneDrive\Desktop\downl\344.jpeg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>780</width>
+		<height>1040</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Footwear</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>51</xmin>
+			<ymin>423</ymin>
+			<xmax>592</xmax>
+			<ymax>878</ymax>
+		</bndbox>
+	</object>
+</annotation>

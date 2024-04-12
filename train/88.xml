@@ -1,0 +1,26 @@
+<annotation>
+	<folder>downloaded</folder>
+	<filename>88.jpg</filename>
+	<path>C:\Users\Bijnis\OneDrive\Desktop\downloaded\88.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>3024</width>
+		<height>4032</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Footwear</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1171</xmin>
+			<ymin>3266</ymin>
+			<xmax>1871</xmax>
+			<ymax>3853</ymax>
+		</bndbox>
+	</object>
+</annotation>
