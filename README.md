@@ -30,6 +30,7 @@ step 8 .tested the images using script: inference_graph\saved_model -l labelmap.
 
 
 Files Inside: models\research\object_detection
+
 1.generate_tfrecord.py
 
 2.labelmap.pbtxt
@@ -41,6 +42,7 @@ Files Inside: models\research\object_detection
 5.xml_to_csv.py
 
 Files Inside :models\research
+
 1.setup.py
 
 2.use_protobuf.py
