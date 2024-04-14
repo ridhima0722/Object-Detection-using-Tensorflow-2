@@ -29,6 +29,24 @@ step 7.Exported inference graph using script:python exporter_main_v2.py --traine
 step 8 .tested the images using script: inference_graph\saved_model -l labelmap.pbtxt -i test_images\lego_test_images
 
 
+Files Inside: models\research\object_detection
+1.generate_tfrecord.py
+
+2.labelmap.pbtxt
+
+3.model_downloader.py
+
+4.ssd_efficientdet_d0_512x512_coco17_tpu-8.config
+
+5.xml_to_csv.py
+
+Files Inside :models\research
+1.setup.py
+
+2.use_protobuf.py
+
+
+
 
 
 
